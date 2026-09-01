@@ -1,0 +1,53 @@
+Perguntas para discussão
+
+Respostas do exercício "Mini Site de Evento em HTML" (seção 16).
+
+1. Qual é a função de <head> e qual é a função de <body>?
+
+O <head> tem as informações que não aparecem na tela, tipo título da aba e a codificação
+de caracteres. Já o <body> é o conteúdo que a gente realmente vê no navegador (textos,
+imagens, formulário etc).
+
+2. Por que utilizamos <nav> em vez de simplesmente colocar vários links?
+
+Porque com <nav> fica claro pro navegador que aquilo ali é um menu de navegação, e não só um monte de link espalhado no meio do conteúdo. É mais
+uma questão de organizar o significado da página.
+
+3. Qual a diferença entre <th> e <td>?
+
+<th> é célula de cabeçalho da tabela (o nome da coluna), <td> é célula de dado normal,
+o conteúdo em si.
+
+4. Por que <label> é importante em um formulário?
+
+Porque liga um texto ao campo (usando for e id), então a pessoa sabe o que preencher.
+
+
+5. Qual a diferença entre id e name em um campo?
+
+id identifica o elemento dentro da página (usado pelo label, CSS, JS). name é o que
+define a chave do dado quando o formulário é enviado. Um input pode ter só id e nenhum
+name, só que aí o valor dele nem é enviado junto com o form.
+
+6. Por que usamos alt em uma imagem?
+
+Serve como texto alternativo caso a imagem não carregue, e também é lido por leitor de
+tela pra descrever a imagem pra quem não consegue ver.
+
+7. O que acontece se o endereço colocado em href estiver errado?
+
+O link simplesmente não funciona, o navegador tenta abrir aquele caminho e dá erro tipo
+página não encontrada. O HTML não avisa antes que o caminho tá errado.
+
+8. Qual a diferença entre <ul> e <ol>?
+
+<ul> é lista sem ordem, <ol> é lista numerada.
+
+9. O que significa dizer que HTML possui uma estrutura hierárquica?
+
+Que os elementos ficam organizados uns dentro dos outros, tipo pai e filho. 
+
+10. O botão de inscrição realmente salva os dados? Por quê?
+
+Não salva. O formulário não tem nenhum servidor ou PHP recebendo esses dados ainda, o
+botão só envia o form mas não tem pra onde ir de verdade.
