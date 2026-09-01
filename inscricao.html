@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição do evento</title>
+</head>
+<body>
+        <header> 
+        <h1>Tech Experience 2026</h1>
+        <p>Um evento para quem quer conhecer mais sobre
+            tecnologia, programação e inovação
+        </p>
+
+    </header>
+
+    <nav>
+        <a href="index.html">inicio</a>
+        <a href="programacao.html">Programação</a>
+        <a href="inscricao.html">Inscrição</a>
+    </nav>
+
+    <main>
+        <h2>Inscrição do evento</h2>
+
+        <p>
+            Preencha os dados abaixo do evento
+        </p>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input
+            type="text"
+            id="nome"
+            name="nome"
+            required
+            >
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            >
+
+            <br><br>
+
+            <label for="idade">Idade:</label>
+            <input
+            type="number"
+            id="idade"
+            name="idade"
+            required
+            >
+
+            <br><br>
+        
+            <label for="experiencia">
+                Nivel de experiencia em programação:
+            </label>
+
+            <select id="experiencia" name="experiencia">
+               <option value="nenhuma">Nenhuma experiência</option>
+               <option value="iniciante">Iniciante</option>
+               <option value="intermediario">Intermediário</option>
+            </select>
+
+            <br><br>
+
+
+            <p>Qual área mais lhe interessa?</p>
+
+            <input type="radio" id="web" name="area" value="web">
+            <label for="web">Desenvolvimento Web</label>
+            <input type="radio" id="dados" name="area" value="dados">
+            <label for="dados">Ciência de Dados</label>
+            <input type="radio" id="infra" name="area" value="infra">
+            <label for="infra">Infraestrutura</label>
+
+            <br><br>
+
+            <input
+            type="checkbox"
+            id="novidades"
+            name="novidades"
+            >
+
+            <label for="novidades">
+                Quero receber Informações sobre próximos eventos
+            </label>
+
+            <br><br>
+            <label for="observacoes">Observações:</label>
+
+            <textarea
+            id="observacoes"
+            name="observacoes"
+            rows="5"
+            cols="40"
+            ></textarea>
+            
+            <br><br>
+
+            <button type=submit>
+                Realizar Inscrição
+            </button>
+
+
+        </form>
+
+    </main>
+
+    <br>
+
+    <footer> <hr>
+        <p>Tech Experience 2026</p>
+        <p>Projeto desenvolvido durante as aulas de Desenvolvimento Web.
+        </p>
+    </footer>
+
+    
+</body>
+</html>
